@@ -32,7 +32,7 @@ export default function NavBar(){
         </div>
 
         <div className="flex items-center gap-4">
-        <Link href="/favorites" className="text-gray-400 hover:text-[#FEAF23] transition-colors">My List</Link>
+        <a href="#" className="text-gray-400 hover:text-[#FEAF23] transition-colors">My List</a>
           <Link href="/signUp"><Button 
             className="bg-[#FEAF23] hover:bg-[#FEAF23]/80 text-white px-6"
           >

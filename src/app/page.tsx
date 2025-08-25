@@ -105,7 +105,7 @@ export default function App() {
           {loading && <h3 className="text-center p-4">Loading movies...</h3>}
           {error && <h3 className="text-center p-4 text-red-500">Error: {error}</h3>}
         </div>
-        <div className="absolute inset-0 bg-[url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fcosettepaneque.com%2Fmaleficent%2F&psig=AOvVaw2sPJXF1Udyt1B1oCxs3Zog&ust=1756181110036000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLikxMyKpY8DFQAAAAAdAAAAABAE)] bg-gradient-to-r from-black/80 via-black/40 to-transparent" />
+        <div className="absolute inset-0 bg-[url(/Images/maleficent.jpeg)] bg-no-repeat bg-cover mix-blend-overlay bg-gradient-to-r from-black/80 via-black/40 to-transparent" />
 
         <div className="relative z-10 flex items-center h-full px-8">
           <div className="max-w-xl">
